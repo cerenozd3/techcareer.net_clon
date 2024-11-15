@@ -149,9 +149,8 @@ body{
     overflow: hidden;
 }
 .testimonial-card img {
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 150px;
+    height: 180px;
     margin-right: 15px;
     flex-shrink: 0; 
 }
@@ -186,10 +185,9 @@ body{
     text-align: left; }
 
 .apply-link.arrow {
-    margin-left: 0.5em; /* Ok işaretiyle metin arasında boşluk */
-    transition: transform 0.3s; /* Hover'da animasyon efekti */
+    margin-left: 0.5em; 
+    transition: transform 0.3s; 
 }
-
 .apply-link:hover .arrow {
     transform: translateX(5px); 
 }
@@ -324,7 +322,6 @@ margin: 0%;
     color: #00796b;
 }
 
-/* Logo ve sosyal medya alanı */
 .footer-info {
     display: flex;
     flex-direction: column;
@@ -452,14 +449,12 @@ margin: 0%;
     margin-right: 50px;
 }
 
-    /* Sayfa numaralandırma kutusu */
     .pagination {
         display: flex;
         align-items: center;
         gap: 12px;
       }
   
-      /* Butonlar ve sayfa numaraları için stil */
       .page-item {
         width: 48px;
         height: 48px;
@@ -475,13 +470,11 @@ margin: 0%;
         text-decoration: none;
       }
   
-      /* Aktif sayfa rengi */
       .page-item.active {
         border-color: #1ecf74;
         color: #1ecf74;
       }
   
-      /* Geçiş butonları (sol ve sağ oklar) */
       .page-item.disabled {
         color: #bbb;
         cursor: not-allowed;
@@ -492,10 +485,8 @@ margin: 0%;
         align-items: center;
         width: 100%;
       }
-   /* Dropdown ana stil */
 
 
-/* Dropdown buton stili */
 .dropdown-button {
     background-color: white;
     color: black;
@@ -506,7 +497,6 @@ margin: 0%;
     width: 100%;
 }
 
-/* Dropdown içeriği gizleme/gösterme */
 .dropdown-content {
     display: none;
     position: relative;
@@ -520,12 +510,10 @@ margin: 0%;
     z-index: 1;
 }
 
-/* Dropdown içeriği gösterme */
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
-/* İçerik yazı stili */
 .dropdown-content p {
     color: #333;
     font-size: 14px;
