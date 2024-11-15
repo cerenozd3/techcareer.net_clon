@@ -1,3 +1,6 @@
-document.getElementById("seeAllComments").addEventListener("click", function() {
-    window.location.href = "user-stories.html"; // Kendi sayfanızın dosya yolunu buraya ekleyin
-});
+document.getElementById('tumetkinlikler').addEventListener('click', function() {
+    window.location.href = 'events.html';
+  });
+
+    
+
